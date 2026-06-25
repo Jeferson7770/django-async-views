@@ -12,4 +12,4 @@ async def http_call_async(request):
         r = await client.get("https://api.github.com/")
         print(r)
 
-    return HttpResponse("Exercício concluído com sucesso!")
+    return HttpResponse("Exercício concluído com sucesso.")
